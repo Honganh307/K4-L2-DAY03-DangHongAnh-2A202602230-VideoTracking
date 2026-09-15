@@ -1,0 +1,148 @@
+{
+  "clip": "clip_01",
+  "frames": 190,
+  "iou_threshold": 0.5,
+  "pred_file": "/content/K4-L2-DAY03-DangHongAnh-2A202602230-VideoTracking/annotations/clip_01/gt.txt",
+  "gt_file": "/content/K4-L2-DAY03-DangHongAnh-2A202602230-VideoTracking/gold/clip01/gt.txt",
+  "pred_label": "nhãn của bạn",
+  "gt_label": "gold clip_01",
+  "metrics": {
+    "HOTA": 0.7607,
+    "DetA": 0.7426,
+    "AssA": 0.7814,
+    "LocA": 0.8327,
+    "IDF1": 0.9632,
+    "IDTP": 536,
+    "IDFP": 4,
+    "IDFN": 37,
+    "MOTA": 0.9284,
+    "MOTP": 0.8098,
+    "IDSW": 0,
+    "FP": 4,
+    "FN": 37,
+    "GT_boxes": 573,
+    "PRED_boxes": 540
+  },
+  "gate": {
+    "checks": {
+      "IDF1": {
+        "value": 0.963162623539982,
+        "required": 0.8,
+        "passed": true
+      },
+      "MOTA": {
+        "value": 0.9284467713787086,
+        "required": 0.75,
+        "passed": true
+      },
+      "MOTP": {
+        "value": 0.8098183397282979,
+        "required": 0.7,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "diagnostics": {
+    "missed_gt_tracks": [],
+    "fragmented_gt_tracks": [],
+    "partially_covered_gt_tracks": [
+      {
+        "gt_track": 5,
+        "covered": 45,
+        "gt_length": 60,
+        "ratio": 0.75
+      },
+      {
+        "gt_track": 6,
+        "covered": 43,
+        "gt_length": 56,
+        "ratio": 0.77
+      }
+    ],
+    "ghost_pred_tracks": [],
+    "id_switches": [],
+    "loose_boxes": [
+      {
+        "frame": 150,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.503
+      },
+      {
+        "frame": 96,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.556
+      },
+      {
+        "frame": 116,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.56
+      },
+      {
+        "frame": 97,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.565
+      },
+      {
+        "frame": 149,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.566
+      },
+      {
+        "frame": 121,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.572
+      },
+      {
+        "frame": 98,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.573
+      },
+      {
+        "frame": 99,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.581
+      },
+      {
+        "frame": 117,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.584
+      },
+      {
+        "frame": 100,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.589
+      },
+      {
+        "frame": 95,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.593
+      },
+      {
+        "frame": 101,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.596
+      },
+      {
+        "frame": 106,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.596
+      }
+    ],
+    "n_gt_tracks": 8,
+    "n_pred_tracks": 8
+  }
+}
